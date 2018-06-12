@@ -6,13 +6,14 @@
 #install.packages( "caret" )
 #install.packages("googleAuthR")         ## authentication             
 #install.packages("googleCloudStorageR") 
+#install.packages("remotes") 
 
 library(googleAuthR)
 library(googleCloudStorageR) 
 
 ##### For LOCAL TESTING, uncomment this to read service account key
-#options(googleAuthR.scopes.selected = "https://www.googleapis.com/auth/cloud-platform")
-#gar_auth_service("/Users/sxg0748/Documents/workspace/deploy_API_R/ingo-risk-ml-c8c89bb10779.json")
+options(googleAuthR.scopes.selected = "https://www.googleapis.com/auth/cloud-platform")
+gar_auth_service("/Users/sxg0748/Documents/workspace/deploy_API_R/ingo-risk-ml-c8c89bb10779.json")
 #####
 
 library(googleAuthR)
