@@ -1,10 +1,5 @@
+.idea
 venv/
-.DS_Store
-.ropeproject/
-.eggs/
-job_runner.egg-info/
-src/__pycache__/
-build/
-dist/
-**/*.pyc
-**/*.tar.gz
+.Rproj.user/
+.Rdata
+*.json
