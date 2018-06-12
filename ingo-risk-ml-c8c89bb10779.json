@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "ingo-risk-ml",
+  "private_key_id": "c8c89bb10779b837fa4e11dc15292d7ee3ae02b8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCDy0YIJemLe62X\noYZpoKCOtaiD2VmkuCTber8OZpR2dQ0xPi3J0Jl5OownY/Ro7fGnzX9ZvlubbMz5\nQRt/ZfhDvthyAi1ODYH+Jix/sfXfcMbIwm2+YZXI8BAmlSKXCgYwDN1+u353EPjD\nCBcKZ/OC90vHwpkRpbLtoLSNB+HzkWvjzWVW3haiwEpYimXVdcYjlwaK2GuVUE/7\nHRZdvDo36saYfKrWt1f152382taw1ZDWfD+8H9pYGjXnIrmUUCDRwIjbQbunqhyr\npeLcQhajnHkk6DdeRnf36vkRVjqE7rf5d/9CGjiE9hQDx7d701cx9/G5KBmBE/le\nPGytxEXnAgMBAAECggEAAR6y+r9Yhs40JIcDjXxtpAwCIXpK2ARikWTiuiLmakOs\n9+xBClp8VPqwFZoBVsgfo6vlqnCpXNHY9tmpSKgoRGpOP4wqMDDoMZP63WwfNgwo\nyRLx4mP4GF8fdZx5BBL0CE6yFFe2h7Kvhasl1JMbXCA+ChwEUSr4/fdXVKCqnsQf\nj31qC7zyXUbSwK+jTrJV4IrgnbpCvfTRyQyg0BdFQdvAVBay0YGH4QzvV8rhSdDF\nRMeVTvNeADoGVRVoOFgnoy76E2b21CRDi8DlfGSnAHQ8SAsHm4e/5MjMA4SN5TYq\nZo2lOgRsoxeU3iYkfdhhOUZRIff4fDh70mx8lbJwdQKBgQC5Md600ZUERdU3j+YL\nwQVhjtJygyD5+611VU7l8Hsb6jXpBFsLH8dHiThhUZqV+TsTI7sBPKH4IOmIf9TZ\nPhpBCwEhxKAJ4nVfFJW+715QgPfrrbGDEXERdcJjPsQpmNsDn21sA5LLRUyel1Bw\nMxgDruzdo1J4REMXakqPDGTTNQKBgQC2Lr/I87Su978o4/Ompd1OEQrWaB+rPLR8\np+ns+1n3H/ay5rmMIT2qkP4eZnieip5zm6eZXNeu00nLjiExZuib6KqBcCkO5n2n\nGnffqqGUztMaRyAQfGKPOJzjFtlPxvPAKDClgtCtC7Vt0yfHom4RJ2iq3pQZfu7t\nNjpO/y8cKwKBgQCwn8dvXJNqx89adntIqoafTL+ZR0akJEyCoyHkWz6OmQlhey35\npg1BRLXo2xM8Bb85udIYk+NF6t3PuVse9gPEFOK3effIdZrLW66Vs2WYEehhdf7e\nqjvUEyOZ07rykT4QbnTFl4LhKu6wMlAdMh2tJZ/yoll9Kl1yb4U8eO2QIQKBgQCl\nJGVm9DsR67PVjiScKHgePuaTClnCsElvQgqTbhjUIZ5P90O0maE7jyk7R2oJVOBj\nLXLUW0uLxy16nkDKdl1ejp6YrKIbRqYaJq0JC7RinsTPai/PoeD5sLjORTUB0ve7\ndPL75UPhyN5SSnkhxsR9OjrvwMmA/wX38xMR7tG2dwKBgEmkZuc76CAv3ki8kHBI\nFK8ktkPUgVUdS9pbZnlhsZR+PnSNy5ESsRCNUUWUU71DPbd8ljo8kc68h58eDa0n\nmvfewgCXfEnWuRZPGrLEFTN27FqqMoHWR609mQ98TyT7fq/wIi2Eq0pXah22tFhw\nGk8RpF6rKKrI6KRlgjb0m5hy\n-----END PRIVATE KEY-----\n",
+  "client_email": "ingo-risk-ml@appspot.gserviceaccount.com",
+  "client_id": "102007652639960173486",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ingo-risk-ml%40appspot.gserviceaccount.com"
+}
