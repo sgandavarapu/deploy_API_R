@@ -2,4 +2,4 @@ runtime: custom
 env: flex
 
 env_variables:
-  GCS_AUTH_FILE: ingo-risk-ml-c8c89bb10779.json
+  GCS_AUTH_FILE: keyfile.json
