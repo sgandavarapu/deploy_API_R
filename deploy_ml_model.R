@@ -11,8 +11,6 @@
 library(googleAuthR)
 library(googleCloudStorageR) 
 options(googleAuthR.scopes.selected = "https://www.googleapis.com/auth/cloud-platform")
-gar_auth_service("/payload/keyfile.json")
-
 ##### For LOCAL TESTING, change path to local folder
 gar_auth_service("/payload/keyfile.json")
 #gar_auth_service("/Users/sxg0748/Documents/workspace/deploy_API_R/keyfile.json")
