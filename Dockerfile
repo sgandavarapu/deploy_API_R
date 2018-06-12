@@ -11,12 +11,10 @@ RUN export DEBIAN_FRONTEND=noninteractive; apt-get -y update \
 	pandoc \
 	pandoc-citeproc \
 	zlib1g-dev
-#RUN R -e 'install.packages(c("remotes","readr", "googleCloudStorageR"), type = "source")'
-RUN ["install2.r", "-r 'http://cloud.r-project.org'", "readr", "googleCloudStorageR", "Rcpp", "digest", "crayon", "withr", "mime", "R6", "jsonlite", "xtable", "magrittr", "httr", "curl", "testthat", "devtools", "hms", "shiny", "httpuv", "memoise", "htmltools", "openssl", \
-    "tibble", "remotes", "rjson", "rpart", "caret", "dplyr"]
-RUN ["install2.r", "-r 'http://cloud.r-project.org'", "formatR", "miniUI"]
-#RUN R -e 'devtools::install_github("MarkEdmondson1234/googleAuthR@7917351")'
-#RUN R -e 'devtools::install_github("hadley/rlang@ff87439")'
+
+#RUN ["install2.r", "-r 'http://cloud.r-project.org'", "readr", "googleCloudStorageR", "Rcpp", "digest", "crayon", "withr", "mime", "R6", "jsonlite", "xtable", "magrittr", "httr", "curl", "testthat", "devtools", "hms", "shiny", "httpuv", "memoise", "htmltools", "openssl", \
+    #"tibble", "remotes", "rjson", "rpart", "caret", "dplyr"]
+RUN ["install2.r", "-r 'http://cloud.r-project.org'","Rcpp", "dplyr", "rjson", "rpart", "jsonlite", "caret", "googleCloudStorageR", "remotes", "formatR", "miniUI"]
 RUN ["installGithub.r", "MarkEdmondson1234/googleAuthR", "hadley/rlang"]
 WORKDIR /payload/
 COPY [".", "./"]
